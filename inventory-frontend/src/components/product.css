@@ -1,0 +1,137 @@
+.product-create-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.product-create-form {
+    width: 600px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+
+.product-create-title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.btn-save {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.btn-save:hover {
+    background: #1d4ed8;
+}
+
+.update-container{
+    display:flex;
+    gap:40px;
+    align-items:flex-start;
+}
+
+.image-side{
+    width:300px;
+}
+
+.image-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.image-list img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.product-create-form{
+    flex:1;
+}
+
+
+.product-filter {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-filter input,
+.product-filter select {
+    height: 42px;
+    padding: 0 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #fff;
+    outline: none;
+    transition: 0.2s;
+}
+
+.product-filter input {
+    width: 280px;
+}
+
+.product-filter select {
+    min-width: 200px;
+    cursor: pointer;
+}
+
+/* hover */
+.product-filter input:hover,
+.product-filter select:hover {
+    border-color: #999;
+}
+
+/* focus */
+.product-filter input:focus,
+.product-filter select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* placeholder */
+.product-filter input::placeholder {
+    color: #999;
+}
