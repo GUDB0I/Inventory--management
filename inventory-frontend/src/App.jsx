@@ -4,7 +4,7 @@ import Login from './pages/login';
 import Register from './pages/register';
 import Dashboard from './pages/dashboard';
 import { Routes, Route } from "react-router-dom";
-import ProtectedRoute from "./components/protectedRoute";
+import ProtectedRoute from "./components/protectedroute";
 import Supplier from './pages/supplier/readsupp';
 import CreateSupp from './pages/supplier/create';
 import UpdateSupp from './pages/supplier/updates';
