@@ -8,7 +8,7 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
-        'https://inventory-management-ye8y-git-master-vu15.vercel.app',
+        'https://inventory-management-3bz5.vercel.app',
     ],
 
     'allowed_origins_patterns' => [],
