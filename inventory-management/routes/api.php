@@ -97,3 +97,9 @@ Route::middleware('auth:sanctum')->prefix('user')
 ->group(function(){
     Route::get('/index','index')->name('index');
 });
+
+Route::get('/test-cors', function () {
+    return response()->json([
+        'message' => 'cors test',
+    ]);
+});
