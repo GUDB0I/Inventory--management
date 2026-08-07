@@ -9,7 +9,7 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
-        'https://inventory-management-y4bo-git-master-vu15.vercel.app',
+       'https://inventory-management-y4bo.vercel.app',
     ],
 
     'allowed_origins_patterns' => [],
