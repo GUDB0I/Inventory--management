@@ -1,4 +1,4 @@
-import Logout from "../components/Logout";
+import Logout from "../components/logout";
 function Header() {
     const user = JSON.parse(localStorage.getItem("user"));
 
